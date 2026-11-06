@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Serabi Bawel Kasir POS",
+    "slug": "serabi-bawel-kasir",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "serabibawelpos",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.ivokgrup.serabibawelpos",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_CONNECT",
+        "BLUETOOTH_SCAN",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#064E3B",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      }
+    },
+    "plugins": [
+      "with-rn-bluetooth-classic"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
